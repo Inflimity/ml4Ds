@@ -57,22 +57,22 @@ def generate_sales_data(num_records=1000):
         final_store_id = store_id if random.random() > 0.03 else "" # 3% missing store
         
         data.append({
-            'Date': date_str,
-            'Store_ID': final_store_id,
-            'Product_Category': category,
-            'Price': final_price,
-            'Is_Holiday': is_holiday,
-            'Is_Promotion': is_promotion,
-            'Units_Sold': units_sold,
-            'Revenue': revenue
+            'date': date_str,
+            'store_id': final_store_id,
+            'product_category': category,
+            'price': final_price,
+            'is_holiday': is_holiday,
+            'is_promotion': is_promotion,
+            'units_sold': units_sold,
+            'revenue': revenue
         })
         
     os.makedirs('data', exist_ok=True)
     
     with open('data/sales_dataset.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=[
-            'Date', 'Store_ID', 'Product_Category', 'Price', 
-            'Is_Holiday', 'Is_Promotion', 'Units_Sold', 'Revenue'
+            'date', 'store_id', 'product_category', 'price', 
+            'is_holiday', 'is_promotion', 'units_sold', 'revenue'
         ])
         writer.writeheader()
         writer.writerows(data)

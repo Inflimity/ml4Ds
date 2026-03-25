@@ -1,4 +1,4 @@
-Date,Store_ID,Product_Category,Price,Is_Holiday,Is_Promotion,Units_Sold,Revenue
+date,store_id,product_category,price,is_holiday,is_promotion,units_sold,revenue
 2025-01-01,1,Electronics,189.8,False,False,10,1897.96
 2025-01-02,5,Toys,22.05,False,True,104,2293.17
 2025-01-03,5,Clothing,52.01,False,False,45,2340.6

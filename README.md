@@ -20,13 +20,21 @@ Follow these steps to begin your mission:
    cp data/sales_dataset.csv ./
    ```
 
-3. **Initialize the Mentor:**
+3. **Launch Anaconda & Jupyter:**
+   We will write all our code inside Anaconda to easily view our plots.
+   - Open **Anaconda Navigator** and launch **Jupyter Notebook**.
+   - Create a new **Python 3 notebook** where your dataset is located.
+
+4. **Initialize the Mentor:**
+   In your terminal or IDE, initialize Antigravity to act as your mentor:
    ```bash
    ag init
    ```
 
-4. **The First Question:**
-   Ask your mentor the following exact prompt to kick things off:
+5. **The First Question:**
+   Use the terminal to ask your mentor questions. Ask this exact prompt to kick things off:
    > "I have the sales data. How do I turn this analysis into a machine learning model?"
+
+*Note: Your mentor will explain concepts and show you code snippets here in the terminal. You will manually type or paste that code into your Anaconda Jupyter Notebook to run it and view the visual results (like heatmaps!).*
 
 Happy learning! You provide the data and the goals, and Antigravity provides the patience.
