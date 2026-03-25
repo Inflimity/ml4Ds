@@ -10,8 +10,8 @@ Follow these steps to begin your mission:
 
 1. **Clone the Lab:**
    ```bash
-   git clone https://github.com/Musibau-Bamidele/DA-to-DS-Lab.git
-   cd DA-to-DS-Lab
+   git clone https://github.com/Inflimity/ml4Ds.git
+   cd ml4Ds
    ```
 
 2. **Prepare the Data:**
