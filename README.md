@@ -14,11 +14,11 @@ Follow these steps to begin your mission:
    cd ml4Ds
    ```
 
-2. **Prepare the Data:**
-   The dataset is located in the `data/` folder. Copy the `sales_dataset.csv` into your working codebase directory for training and analysis:
-   ```bash
-   cp data/sales_dataset.csv ./
-   ```
+2. **Prepare your Data (Crucial Step):**
+   Machine learning requires your data to be part of your project. 
+   - Copy your `.csv` dataset into this folder.
+   - If using the lab data: `cp data/sales_dataset.csv ./`
+   - **Tip:** Your mentor will help you decide which column in your CSV is the best "Target" to predict!
 
 3. **Launch Anaconda & Jupyter:**
    We will write all our code inside Anaconda to easily view our plots.
