@@ -5,9 +5,9 @@ Welcome to the transition lab! This project is no longer just a single analysis;
 ## 🚀 How to Start
 
 1.  **Open the Dashboard:**
-    Start by opening [CURRICULUM.md](file:///Users/seyimusibau/Inflimity/ml4ds/CURRICULUM.md). This is your "Mission Control" center.
+    Start by opening [CURRICULUM.md](./CURRICULUM.md). This is your "Mission Control" center.
 2.  **View Your Mission:**
-    Go to the `missions/` directory and open the file for your current level (e.g., `missions/Level_1_Analyst.md`).
+    Go to the `missions/` directory and open the file for your current level (e.g., [missions/Level_1_Analyst.md](./missions/Level_1_Analyst.md)).
 3.  **Use Your Lead Scientist:**
     Your mentor (Antigravity) is no longer here to "discuss" your feelings about the data. They are here to give you **Direct Tactical Instructions**. 
     - Ask: *"I'm ready for Level 1. What's my first task?"*
