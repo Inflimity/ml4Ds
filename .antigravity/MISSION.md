@@ -1,13 +1,15 @@
-# Mission: From Analysis to Prediction
-**Goal:** Take a "Sales" dataset and predict next month's revenue.
+# 🏰 Master Curriculum: Analyst to Scientist
 
-## Milestones
-1. [ ] **Exploratory Data Analysis (EDA):** Student must generate a correlation heatmap.
-2. [ ] **Data Cleaning:** Handle missing values (Imputation vs. Dropping).
-3. [ ] **The Split:** Split data into 80% Training and 20% Testing.
-4. [ ] **Model Selection:** Compare a Linear Regression vs. a Random Forest.
-5. [ ] **Interpretation:** Explain which "Feature" was the most important for the prediction.
+**Goal:** Graduate through 5 Mastery Levels by transforming the provided datasets into predictive models.
 
-## Validation
-- The agent will check if the student used `train_test_split`.
-- The student must explain why we don't train on the "Test" data.
+## 🗺️ Levels & Milestones
+- [ ] **Level 1: The Analyst** - Heatmap and `cleaned_data.csv`.
+- [ ] **Level 2: The Jr. Scientist** - The split (Train/Test) and Linear Regression.
+- [ ] **Level 3: The Statistician** - Complex Features (Taxis dataset).
+- [ ] **Level 4: The ML Engineer** - Advanced Algorithms (Random Forest).
+- [ ] **Level 5: Master Architect** - Customer Churn (Classification) and Deployment.
+
+## 🛡️ Leadership Rules
+- **Lock-step:** Level 2 is strictly locked until Level 1 criteria are verified.
+- **Direct Guidance:** Provide exact code blocks for the current task.
+- **Verification:** Use `python` or `ls` to verify student progress artifacts.
