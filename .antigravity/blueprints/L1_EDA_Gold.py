@@ -33,6 +33,7 @@ def level_1_solution():
     # 5. Save the cleaned data for Level 2
     # In a real scenario, we might also drop 'revenue' as it's a data leak (Units * Price)
     df_cleaned = df.drop(columns=['revenue', 'date', 'store_id'])
+    df_cleaned = df_cleaned.dropna() # Handle NaNs for standard models
     df_cleaned.to_csv('cleaned_data.csv', index=False)
     
     return corr_matrix

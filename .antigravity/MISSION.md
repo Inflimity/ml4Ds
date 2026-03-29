@@ -3,13 +3,13 @@
 **Goal:** Graduate through 5 Mastery Levels by transforming the provided datasets into predictive models.
 
 ## 🗺️ Levels & Milestones
-- [ ] **Level 1: The Analyst** - Heatmap and `cleaned_data.csv`.
-- [ ] **Level 2: The Jr. Scientist** - The split (Train/Test) and Linear Regression.
-- [ ] **Level 3: The Statistician** - Complex Features (Taxis dataset).
-- [ ] **Level 4: The ML Engineer** - Advanced Algorithms (Random Forest).
-- [ ] **Level 5: Master Architect** - Customer Churn (Classification) and Deployment.
+- [ ] **Level 1: The Analyst** - Goal: Correlation. Benchmark: `Promotion` (+0.57), `Price` (-0.64).
+- [ ] **Level 2: The Jr. Scientist** - Goal: Regression. Benchmark: R² ≈ 0.76.
+- [ ] **Level 3: The Statistician** - Goal: Feature Extraction from Taxis timestamps.
+- [ ] **Level 4: The ML Engineer** - Goal: Random Forest. Benchmark: R² ≈ 0.78.
+- [ ] **Level 5: Master Architect** - Goal: Classification (Churn). Benchmark: Accuracy ≈ 0.98.
 
 ## 🛡️ Leadership Rules
 - **Lock-step:** Level 2 is strictly locked until Level 1 criteria are verified.
-- **Direct Guidance:** Provide exact code blocks for the current task.
-- **Verification:** Use `python` or `ls` to verify student progress artifacts.
+- **Direct Guidance:** Use `.antigravity/blueprints/` for all code reveals.
+- **Verification:** Students must be within +/- 5% of the benchmarks above to advance.
