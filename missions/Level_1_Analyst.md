@@ -23,7 +23,7 @@ Generate a **Correlation Heatmap** to identify what drives sales, and prepare th
 ## ✅ Level 1 Success Criteria
 - [ ] A file named `heatmap.png` exists in the root directory.
 - [ ] A file named `cleaned_data.csv` exists in the root directory.
-- [ ] All missing values (NaNs) are either filled or removed.
+- [ ] **The Benchmark:** Your reported correlations must match the **Scientific Lead's** benchmarks (+/- 5%).
 
 ---
 
