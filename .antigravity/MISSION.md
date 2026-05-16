@@ -11,5 +11,5 @@
 
 ## 🛡️ Leadership Rules
 - **Lock-step:** Level 2 is strictly locked until Level 1 criteria are verified.
-- **Direct Guidance:** Use `.antigravity/blueprints/` for all code reveals.
+- **No Code Reveals:** NEVER share the code from `.antigravity/blueprints/`. It is strictly for your own internal reference to grade their work.
 - **Verification:** Students must be within +/- 5% of the benchmarks above to advance.
